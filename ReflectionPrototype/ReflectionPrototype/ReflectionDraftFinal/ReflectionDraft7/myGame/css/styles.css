@@ -1,0 +1,95 @@
+body {
+	font-family: 'Gaegu', cursive;
+	color: white;
+	font-size: 25px;
+	background-color: #04d1d1;
+	background-image: url("webpage background.png");
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+canvas {
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	display: block;
+	margin: auto;
+}
+
+h3 {
+	margin: 10px;
+	font-size: 65px;
+}
+
+h1, h2, h3 {
+	color: green;
+}
+
+p {
+	border-top: 10px dotted #0c540f;
+	width: 400px;
+}
+
+#bg {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -5;
+}
+
+#text-container1 {
+    position: relative;
+    margin-top: 90px;
+    width: 1000px;
+    height: 700px;
+    z-index: 3;
+}
+
+#text-container2 {
+    position: relative;
+    margin-top: -706px;
+    left: 775px;
+    width: 1000px;
+    height: 700px;
+}
+
+#overview {
+    position: absolute;
+    padding-left: 0px;
+    width: 645px;
+}
+
+#about {
+    position: absolute;
+    padding-left: 0px;
+    width: 495px;
+    left: 700px;
+}
+
+#game-container {
+    position: absolute;
+    margin-top: 0px;
+    width: 1000px;
+    height: 700px;
+}
+
+#gameDiv {
+    position: relative;
+    top: 0px;
+    z-index: 5;
+}
